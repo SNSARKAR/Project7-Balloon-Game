@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Balloons Game</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="score-block">
+		<p>You popped <strong><span class="score">0</span></strong> balloons.</p>
+	</div>
+	<div class="total-shadow">
+		<div class="total-block">
+			<div class="total-wrapper win">
+			<h4>Congratulations</h4>
+			<img src="images/happy.png" alt="Winner">
+			<h4>
+				You popped all 100 balloons!
+			</h4>
+			<p>You are a champion</p>
+			<p>Play again</p>
+			<button class="restart1">Yes</button>
+			<button class="cancel1">No</button>
+			</div>
+			<div class="total-wrapper lose">
+				<h4>Sorry</h4>
+			<img src="images/sad.png" alt="Loser">
+			<h4>
+				You popped <span class="score">0</span> balloons!
+			</h4>
+			<p>Play again</p>
+			<button class="restart2">Yes</button>
+			<button class="cancel2">No</button>
+			</div>
+		</div>
+	</div>
+	<div class="start-game-window">
+		<h2>Are you ready to start?</h2>
+		<div class="instructions">
+			<p>1. A simple game where the player has to pop the ballons floating bottom-up on the screen</p>
+			<p>2. A player has to pop 100 balloons without letting any balloon touch the upper part of your browser, only then he/she can be the winner.</p>
+			<p>3. If a balloon touches the upper browser ,he/she looses.</p>
+		</div>
+		
+		<button class="start-game-button">
+		<strong>Start Game</strong></button>
+	</div>
+	<audio class="bg-music"src="sounds/music.mp3" loop></audio>
+	<script src="js/script.js"></script>
+</body>
+</html>
