@@ -5,6 +5,7 @@ body{
 	padding: 0;
 	margin: 0;
 	font-family: Arial;
+	background-color: rgb(173, 216, 230	);
 }
 .balloon{
 	
@@ -84,4 +85,13 @@ body{
 .instructions{
 	margin-left: 40%;
 	font-weight: bold;
+}
+.end-game-window{
+	width: 100vw;
+	height: 100vh;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
 }
